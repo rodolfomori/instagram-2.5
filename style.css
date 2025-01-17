@@ -18,8 +18,19 @@ body {
     margin-bottom: 20px;
 }
 
+.caixa-imagens {
+    position: relative;  /* Como vamos posicionar os elementos */
+} 
+
 .imagem-celular {
-    width: 520px;
+    width: 450px;
+}
+
+.imagem-insta {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
 }
 
 .caixa-form {
