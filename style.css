@@ -31,6 +31,7 @@ body {
     position: absolute;
     left: 153px;
     top: 26px;
+    transition: opacity 2s;
 }
 
 .caixa-form {
@@ -77,4 +78,43 @@ button {
     text-align: center;
     font-size: 12px;
     cursor: pointer;
+}
+
+.caixa-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #dbdbdb;
+}
+
+.paragrafo-cadastro {
+    font-size: 14px;
+}
+
+.link-cadastro {
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+.logo-app {
+    width: 150px;
+}
+
+.paragrafo-app {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.caixa-app {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
